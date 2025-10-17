@@ -1,1 +1,54 @@
-{"id":"17e82587439e424a4168327b","api":{"test":[{"method":"GET","queryData":{},"response":{"status":"200","type":"json","data":"{ \"message\": \"It works!\" }"}},{"method":"POST","queryData":{},"response":{"status":"200","type":"json","data":"{ \"message\": \"It works!\" }"}},{"method":"PUT","queryData":{},"response":{"status":"200","type":"json","data":"{ \"message\": \"It works!\" }"}},{"method":"DELETE","queryData":{},"response":{"status":"200","type":"json","data":"{ \"message\": \"It works!\" }"}},{"method":"PATCH","queryData":{},"response":{"status":"200","type":"json","data":"{ \"message\": \"It works!\" }"}}],"example/processor":[{"method":"GET","queryData":{},"response":{"status":"200","type":"custom-processor","data":"example_processor.mjs"}}],"example/redirect":[{"method":"GET","queryData":{},"response":{"status":"200","type":"redirect","data":"https://picsum.photos/500"}}],"example/processor2":[{"method":"GET","queryData":{},"response":{"status":"200","type":"custom-processor","data":"example2.mjs"}}]},"notFound":{"status":404,"message":"Not Found"}}
+{
+    "id": "17e82587439e424a4168327b",
+    "api": {
+      "login": [
+        {
+          "method": "POST",
+          "queryData": {},
+          "response": {
+            "status": "200",
+            "type": "json",
+            "data": "{ \"estado\": \"exito\", \"mensaje\": true, \"token\": { \"estado\": \"exito\", \"mensaje\": \"Credenciales válidas\", \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJTSVNURU1BIEdVSUEgVEVTVCIsImF1ZCI6IkFQSSBBR1JPU0VSVklDSU9TIFRFU1QiLCJpYXQiOjE3NTA3NzM2MDYsIm5iZiI6MTc1MDc3MzYwNiwiZXhwIjoxNzUwNzc3MjA2fQ.TnqI_gSibP5yz6lqXkIKBzE54UzNF7C5VQpq3VjhsrRVKvjOlZ8f3BBBHv8nShY7zBjPisc8jo8T0Rf7TW80LJ3ZUb8hfXyhplVPwRA-JzynJPVEP3o7CvFtz0xQdaz0R5sJpu2x1ogqNcpdViENz1UTypEawsBhVGU6b5bs-Yi5x32iwYxtaTs4yJ4nm5Yt7wjHhkEEShAoA9kCdxbdB8G_NuTGt4Z0UxRVVT_iSMdgDlj70yFrZmcnkvtlNiRKCqDOUMtR7krCVZJEcYjpi9eVuREi9RGZVzUtofejhlBlt6TbhaoX-K19vUb7Z2QLFgL8YR54JImdRFpY3ghyksdRLvKqJ77qXM8zTp5Uhd2qRNMskpahHoNzR-x3CGYfxvH8gtpR3tsd7zoE6W8jwWHfLzDC7vDl2OPIKejYDMS6_FoG4Cpx5piH11terS-gjjwNgY1EpLT9PD1hP9SmzpeVQ0pnDEQgYytxV6EwFNHAzA6sk02pGeNWyzDuaxMU\", \"expiraEn\": 1750777206, \"estatusCode\": 200, \"not-before-policy\": 1750773606 }, \"data\": [ { \"identificador\": \"1718050709\", \"perfiles\": \"2\", \"nombre\": \"BERNARDO DARIO\", \"apellido\": \"MORALES LOPEZ\", \"id_localizacion_provincia\": 259, \"id_localizacion_canton\": 448, \"id_localizacion_parroquia\": 2004, \"estado_empleado\": \"activo\", \"mail_personal\": \"dariodbml@gmail.com\", \"mail_institucional\": \"bernardo.morales@agrocalidad.gob.ec\", \"tipo_contrato\": \"Contrato de Servicios Ocasionales\", \"estado_contrato\": 1, \"identificador_op\": null, \"razon_social_op\": null, \"nombre_representante_op\": null, \"apellido_representante_op\": null, \"direccion_op\": null, \"telefono_uno_op\": null, \"celular_uno_op\": null, \"correo_op\": null, \"provincia_op\": null, \"canton_op\": null, \"parroquia_op\": null, \"identificador_fin\": null, \"correo_fin\": null } ] }"
+          }
+        }
+      ],
+      "validarEstadoPago": [
+        {
+          "method": "POST",
+          "queryData": {},
+          "response": {
+            "status": "200",
+            "type": "json",
+            "data": "{ \"estado\": \"exito\", \"mensaje\": \"Consulta ejecutada satisfactoriamente\", \"cuerpo\": [ { \"numero_factura\": \"034-001-000091917\", \"ruta_orden_pago\": \"https://pruebasguia.agrocalidad.gob.ec/agrodbPrueba/aplicaciones/financiero/documentos/ordenPago/2025/10/14/ReporteOrden_1718050709001_2025-10-14_10_58_48.pdf\", \"ruta_factura\": \"https://pruebasguia.agrocalidad.gob.ec/agrodbPrueba/aplicaciones/financiero/documentos/facturas/2025/10/14/1410202501176818883000110340010000919170000000116.pdf\", \"estado\": \"facturado\" } ] }"
+          }
+        }
+      ],
+      "generarRegistroPago": [
+        {
+          "method": "POST",
+          "queryData": {},
+          "response": {
+            "status": "200",
+            "type": "json",
+            "data": "{ \"estado\": \"exito\", \"mensaje\": \"Detalle de valores a facturar registrados!\" }"
+          }
+        }
+      ],
+      "data/processor": [
+        {
+          "method": "GET",
+          "queryData": {},
+          "response": {
+            "status": "200",
+            "type": "data-processor",
+            "data": "data_processor.mjs"
+          }
+        }
+      ]
+    },
+    "notFound": {
+      "status": 404,
+      "message": "Not Found"
+    }
+  }
+  
