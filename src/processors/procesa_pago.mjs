@@ -32,11 +32,14 @@ const facturado = {
 }
 
 const verificacion = {
-    "method": "POST",
-    "queryData": {},
-    "response": {
-        "status": "200",
-        "type": "json",
-        "data": "{ \"estado\": \"exito\", \"mensaje\": \"Consulta ejecutada satisfactoriamente\", \"cuerpo\": [ { \"numero_factura\": \"034-001-000091917\", \"ruta_orden_pago\": \"https://pruebasguia.agrocalidad.gob.ec/agrodbPrueba/aplicaciones/financiero/documentos/ordenPago/2025/10/14/ReporteOrden_1718050709001_2025-10-14_10_58_48.pdf\", \"ruta_factura\": \"https://pruebasguia.agrocalidad.gob.ec/agrodbPrueba/aplicaciones/financiero/documentos/facturas/2025/10/14/1410202501176818883000110340010000919170000000116.pdf\", \"estado\": \"verificacion\" } ] }"
-    }
+    "estado": "exito",
+    "mensaje": "Consulta ejecutada satisfactoriamente",
+    "cuerpo": [
+        {
+            "numero_factura": null,
+            "ruta_orden_pago": "https://pruebasguia.agrocalidad.gob.ec/agrodbPrueba/aplicaciones/financiero/documentos/ordenPago/2025/10/20/ReporteOrden_1768048820001_2025-10-20_9_4_45.pdf",
+            "ruta_factura": null,
+            "estado": "verificacion"
+        }
+    ]
 }
