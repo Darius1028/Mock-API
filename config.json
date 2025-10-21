@@ -38,7 +38,7 @@
       ],
       "reporteOrden": [
         {
-          "method": "POST",
+          "method": "GET",
           "queryData": {},
           "response": {
             "status": "200",
@@ -50,7 +50,7 @@
       ],
       "factura": [
         {
-          "method": "POST",
+          "method": "GET",
           "queryData": {},
           "response": {
             "status": "200",
