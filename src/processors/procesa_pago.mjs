@@ -10,6 +10,13 @@ export default function handler(req, res, endpoint) {
         res.status(200).json(facturado)
         return
     }
+
+    if (!nameParameter) {
+        const respuesta = contador % 2 === 0 ? verificacion : facturado
+        contador++
+        res.status(200).json(respuesta)
+        return
+    }
     
     // Caso por defecto si no coincide ningún parámetro
     res.status(400).json({ 

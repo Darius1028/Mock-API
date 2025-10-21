@@ -14,7 +14,7 @@ export default function handler(req, res, endpoint) {
     // Caso por defecto si no coincide ningún parámetro
     res.status(400).json({ 
         error: "Parámetro inválido",
-        mensaje: "Use 'verificacion' o 'facturado' como parámetro"
+        mensaje: JSON.stringify(data)
     })
 }
 
