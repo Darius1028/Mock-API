@@ -33,8 +33,8 @@ const facturado = {
     "cuerpo": [
         {
             "numero_factura": "034-001-000268267",
-            "ruta_orden_pago": "https://guia.agrocalidad.gob.ec/agrodb/aplicaciones/financiero/documentos/ordenPago/2025/10/16/ReporteOrden_3040018396_2025-10-16_14_20_866.pdf",
-            "ruta_factura": "https://guia.agrocalidad.gob.ec/agrodb/aplicaciones/financiero/documentos/facturas/2025/10/17/1710202501176818883000120340010002682670000000814.pdf",
+            "ruta_orden_pago": "https://mock-api-one-eosin.vercel.app/api/reporteOrden",
+            "ruta_factura": "https://mock-api-one-eosin.vercel.app/api/factura",
             "estado": "facturado"
         }
     ]
@@ -46,7 +46,7 @@ const verificacion = {
     "cuerpo": [
         {
             "numero_factura": null,
-            "ruta_orden_pago": "https://pruebasguia.agrocalidad.gob.ec/agrodbPrueba/aplicaciones/financiero/documentos/ordenPago/2025/10/20/ReporteOrden_1768048820001_2025-10-20_9_4_45.pdf",
+            "ruta_orden_pago": "https://mock-api-one-eosin.vercel.app/api/reporteOrden",
             "ruta_factura": null,
             "estado": "verificacion"
         }
