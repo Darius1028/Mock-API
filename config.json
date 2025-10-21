@@ -36,17 +36,31 @@
           }
         }
       ],
-      "data/processor": [
+      "reporteOrden": [
         {
-          "method": "GET",
+          "method": "POST",
           "queryData": {},
           "response": {
             "status": "200",
-            "type": "data-processor",
-            "data": "data_processor.mjs"
+            "type": "custom-processor",
+            "data": "procesa_reporteOrden.mjs"
+
+          }
+        }
+      ],
+      "factura": [
+        {
+          "method": "POST",
+          "queryData": {},
+          "response": {
+            "status": "200",
+            "type": "custom-processor",
+            "data": "procesa_factura.mjs"
+
           }
         }
       ]
+
     },
     "notFound": {
       "status": 404,
