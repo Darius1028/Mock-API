@@ -67,8 +67,11 @@
           "response": {
             "status": "200",
             "type": "custom-processor",
-            "data": "procesa_plagas.mjs"
+            "data": "procesa_plagas.mjs"  
 
+          }
+        }
+      ]
     },
     "notFound": {
       "status": 404,

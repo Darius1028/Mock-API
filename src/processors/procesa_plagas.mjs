@@ -40,6 +40,5 @@ const informacion_plagas = {
           "nombreCientificoPlaga": "Planococcus citri"
         }
       ]
-      
 }
 
