@@ -59,7 +59,15 @@
 
           }
         }
-      ]
+      ],
+      "plagas": [
+        {
+          "method": "POST",
+          "queryData": {},
+          "response": {
+            "status": "200",
+            "type": "custom-processor",
+            "data": "procesa_plagas.mjs"
 
     },
     "notFound": {
