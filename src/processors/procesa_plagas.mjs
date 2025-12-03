@@ -3,17 +3,11 @@ let contador = 0
 export default function handler(req, res, endpoint) {
     const nombreComuPlaga = req.body && req.body.nombreComuPlaga
    
-    if (nombreComuPlaga) {
-        res.status(200).json(informacion_plagas)
-        return
-    }
+
+    return res.status(200).json(informacion_plagas)
+  
    
 
-    // Caso por defecto si no coincide ningún parámetro
-    res.status(400).json({
-        error: "Parámetro inválido",
-        mensaje: "Envíe en el body el campo 'nombreComuPlaga' (p. ej.: 'verificacion')"
-    })
 }
 
 const informacion_plagas = {
