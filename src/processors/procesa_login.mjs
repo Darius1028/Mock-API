@@ -74,7 +74,7 @@ const dos = {
     "data": [
         {
             "identificador": null,
-            "perfiles": "2",
+            "perfiles": "2,9",
             "nombre": null,
             "apellido": null,
             "id_localizacion_provincia": null,
