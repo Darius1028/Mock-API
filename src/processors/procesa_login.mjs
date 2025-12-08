@@ -32,7 +32,7 @@ const uno = {
     "data": [
         {
             "identificador": "1718050709",
-            "perfiles": "2",
+            "perfiles": "9",
             "nombre": "BERNARDO DARIO",
             "apellido": "MORALES LOPEZ",
             "id_localizacion_provincia": 259,
