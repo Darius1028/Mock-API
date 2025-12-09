@@ -1,7 +1,7 @@
 export default function handler(req, res, endpoint) {
     const data = req.body  
     
-    if (data.identificador === '1718050709') {
+    if (data.identificador === '1722959168') {
         res.status(200).json(uno)
         return
     }
@@ -31,7 +31,7 @@ const uno = {
     },
     "data": [
         {
-            "identificador": "1718050709",
+            "identificador": "1722959168",
             "perfiles": "2",
             "nombre": "BERNARDO DARIO",
             "apellido": "MORALES LOPEZ",
