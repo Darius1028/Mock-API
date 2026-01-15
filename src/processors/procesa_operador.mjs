@@ -1,10 +1,8 @@
-let contador = 0
-
 export default function handler(req, res) {
-    return res.status(200).json(informacion_plagas)
+    return res.status(200).json(informacion_operador)
 }
 
-const informacion_plagas = {
+const informacion_operador = {
   "estado": "exito",
   "mensaje": "Usario encontrado",
   "data": [
