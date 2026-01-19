@@ -10,6 +10,11 @@ export default function handler(req, res, endpoint) {
         res.status(200).json(dos)
         return
     }
+
+    if (data.identificador === '1718050709002') {
+        res.status(200).json(dos)
+        return
+    }
     
     // Caso por defecto si no coincide ningún parámetro
     res.status(400).json({ 
@@ -98,6 +103,48 @@ const dos = {
             "parroquia_op": "Urbina (Taya)",
             "identificador_fin": "8400078047",
             "correo_fin": "yuko.shisyo@gmail.com"
+        }
+    ]
+}
+
+const tres = {
+    "estado": "exito",
+    "mensaje": true,
+    "token": {
+        "estado": "exito",
+        "mensaje": "Credenciales válidas",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxNzE4MDUwNzA5IiwiaXNzIjoiU0lTVEVNQSBHVUlBIFRFU1QiLCJhdWQiOiJBUEkgQUdST1NFUlZJQ0lPUyBURVNUIiwiaWF0IjoxNzY1Mjg4NjA2LCJuYmYiOjE3NjUyODg2MDYsImV4cCI6MTc2NTI5MjIwNn0.skum7Vcq-AR9Cos1VAptQLA6WEkPONCT6DmBna_-QgUzLhAjXBk7C71pdLISTE4_7vdxBz6-ZORl8AxBzB6BjJUAnSgj8XmHRrBvUJrpz6UUT75_JQp2Rk_zAXvTpSJ_9d0FcHh4AM4NzPVaYBTbPeiqrGZGPmsYyCTbkKib5kSFIPMNI1XLY83oSBrwkGpqVkK5cjFaJRsc8SqqV7YlWB4JhufCw4xQ02HI8JZvRS0iESxnVAxPTsOTs9gvLL18ziSQXDHhs357qaE4MajxnPefh41ncLIKYEOi38rAAaF0Y-hCSOQLfTtL7SHzTfZJLyRiaxFsPJSFHwaQktLS3SHNJ0iI5RCOtN5EQIb9dExZTC2RnsMTuyzffN6PCoHfCrMaxqBAAA49XfOmPlCsAhdpNXNCw4o-ljGmRpOMa0TZnsblyR8KK-XF3LE9HOst367bXyThIHTs8wrZZOl9zi1w2lTYVo2IKq5-NnonmZii8ZBo6IvX90NycPy39X7a",
+        "expiraEn": 1765292206,
+        "estatusCode": 200,
+        "not-before-policy": 1765288606
+    },
+    "data": [
+        {
+            "identificador": "1718050709",
+            "perfiles": "2",
+            "nombre": "BERNARDO DARIO",
+            "apellido": "MORALES LOPEZ",
+            "id_localizacion_provincia": 259,
+            "id_localizacion_canton": 448,
+            "id_localizacion_parroquia": 2004,
+            "estado_empleado": "activo",
+            "mail_personal": "dariodbml@gmail.com",
+            "mail_institucional": "bernardo.morales@agrocalidad.gob.ec",
+            "tipo_contrato": "Contrato de Servicios Ocasionales",
+            "estado_contrato": null,
+            "identificador_op": null,
+            "razon_social_op": null,
+            "nombre_representante_op": null,
+            "apellido_representante_op": null,
+            "direccion_op": null,
+            "telefono_uno_op": null,
+            "celular_uno_op": null,
+            "correo_op": null,
+            "provincia_op": null,
+            "canton_op": null,
+            "parroquia_op": null,
+            "identificador_fin": null,
+            "correo_fin": null
         }
     ]
 }
