@@ -12,7 +12,7 @@ export default function handler(req, res, endpoint) {
     }
 
     if (data.identificador === '1718050709002') {
-        res.status(200).json(dos)
+        res.status(200).json(tres)
         return
     }
     
