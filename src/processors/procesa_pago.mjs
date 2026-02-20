@@ -27,6 +27,8 @@ export default function handler(req, res, endpoint) {
     })
 }
 
+
+
 const facturado = {
     "estado": "exito",
     "mensaje": "Consulta ejecutada satisfactoriamente",
