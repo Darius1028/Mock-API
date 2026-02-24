@@ -46,9 +46,9 @@ const verificacion = {
     "cuerpo": [
         {
             "numero_factura": null,
-            "ruta_orden_pago": "https://guia.agrocalidad.gob.ec/agrodb/aplicaciones/financiero/documentos/ordenPago/2026/02/09/ReporteOrden_1790319857001_2026-02-09_14_54_668.pdf",
+            "ruta_orden_pago": "https://mock-api-one-eosin.vercel.app/api/reporteOrden",
             "ruta_factura": null,
-            "estado": "anuladoFacturacion"
+            "estado": "verificacion"
         }
     ]
 }
