@@ -2,7 +2,7 @@ export default function handler(req, res, endpoint) {
     const data = req.body  
     
     if (data.identificador === '0503183949') {
-        res.status(200).json(uno)
+        res.status(200).json(tres)
         return
     }
     
