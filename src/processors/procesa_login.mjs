@@ -1,7 +1,7 @@
 export default function handler(req, res, endpoint) {
     const data = req.body  
     
-    if (data.identificador === '1718050709') {
+    if (data.identificador === '0503183949') {
         res.status(200).json(uno)
         return
     }
