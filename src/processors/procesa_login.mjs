@@ -40,9 +40,9 @@ const uno = {
             "perfiles": "2",
             "nombre": "BERNARDO DARIO",
             "apellido": "MORALES LOPEZ",
-            "id_localizacion_provincia": 259,
-            "id_localizacion_canton": 448,
-            "id_localizacion_parroquia": 2004,
+            "id_localizacion_provincia": null,
+            "id_localizacion_canton": null,
+            "id_localizacion_parroquia": null,
             "estado_empleado": "activo",
             "mail_personal": "dariodbml@gmail.com",
             "mail_institucional": "bernardo.morales@agrocalidad.gob.ec",
@@ -95,14 +95,14 @@ const dos = {
             "nombre_representante_op": "EDISON HERNAN ",
             "apellido_representante_op": "ESTUPIÑAN ",
             "direccion_op": "TAYA ",
-            "telefono_uno_op": "(02) 222-2222",
-            "celular_uno_op": "(09) 8012-0542",
-            "correo_op": "yuko.shisyo@gmail.com",
-            "provincia_op": "Carchi",
-            "canton_op": "Tulcán",
+            "telefono_uno_op": null,
+            "celular_uno_op": null,
+            "correo_op": null,
+            "provincia_op": null,
+            "canton_op": null,
             "parroquia_op": "Urbina (Taya)",
             "identificador_fin": "8400078047",
-            "correo_fin": "yuko.shisyo@gmail.com"
+            "correo_fin": null
         }
     ]
 }
