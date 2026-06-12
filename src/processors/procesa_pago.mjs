@@ -4,7 +4,7 @@ export default function handler(req, res, endpoint) {
     const nameParameter = req.query.name
    
     if (nameParameter === 'verificacion') {
-        res.status(200).json(verificacion)
+        res.status(500).json(verificacion)
         return
     }
    
