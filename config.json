@@ -30,7 +30,7 @@
           "method": "POST",
           "queryData": {},
           "response": {
-            "status": "500",
+            "status": "200",
             "type": "json",
             "data": "{ \"estado\": \"exito\", \"mensaje\": \"Detalle de valores a facturar registrados!\" }"
           }
